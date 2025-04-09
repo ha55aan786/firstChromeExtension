@@ -28,6 +28,9 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring.boot.version}</version>
+                <configuration>
+                    <mainClass>com.example.demo.DemoApplication.java</mainClass> <!-- Replace with your main class -->
+                </configuration>
             </plugin>
         </plugins>
     </build>
